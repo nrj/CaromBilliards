@@ -8,7 +8,7 @@ using System.Linq;
 
 public class GameMediator : EventMediator
 {
-    const int POINTS_TO_WIN = 1;
+    const int POINTS_TO_WIN = 3;
 
     // Lerp between these shot force values up to max time
     const float SHOT_CHARGE_MIN_FORCE = 0.1f;
